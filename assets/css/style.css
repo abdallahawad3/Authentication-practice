@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #0B60B0,#40A2D8) !important;
+}
+
+.container {
+  width: 500px !important;
+  background-color: #DDF2FD;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-error {
+  border: 2px solid rgb(229, 0, 0) !important;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+
+
